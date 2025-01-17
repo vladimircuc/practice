@@ -8,7 +8,15 @@ void main (int argc, char *argv[])
         printf("%d\n", nr);
         nr--;
     }
-    printf("Happy New Years!\n");
+
+    while(nr < 11)
+    {
+        if(nr % 2 == 0)
+        {
+            printf("Even - %d\n", nr);
+        }
+        nr++;
+    }
 
     //scanf("%d", &nr);
 
